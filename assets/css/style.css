@@ -407,10 +407,24 @@ img {
 
 /* About  */
 .about__img {
-    width: 200px;
+    /* width: 200px; */
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+}
+
+.about__blob-container {
+    width: auto;
+    height: fit-content;
+    background-color: var(--first-color);
+    padding-top: 10px;
+    border-radius: .5rem;
+}
+
+.about__blob-img {
+    justify-self: center;
+    align-self: center;
+    margin-left: 4em;
 }
 
 .about__description {
@@ -520,6 +534,10 @@ img {
     width: 80%;
 }
 
+.skills__bootstrap {
+    width: 70%;
+}
+
 .skills__js {
     width: 60%;
 }
@@ -528,20 +546,12 @@ img {
     width: 50%;
 }
 
-.skills__php {
+.skills__git {
     width: 80%;
 }
 
-.skills__node {
-    width: 70%;
-}
-
-.skills__angular {
-    width: 60%;
-}
-
-.skills__python {
-    width: 55%;
+.skills__github {
+    width: 80%;
 }
 
 .skills__figma {
