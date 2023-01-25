@@ -424,7 +424,7 @@ img {
 .about__blob-img {
     justify-self: center;
     align-self: center;
-    margin-left: 4em;
+    margin-left: 4.5em;
 }
 
 .about__description {
@@ -537,13 +537,16 @@ img {
 .skills__bootstrap {
     width: 70%;
 }
+.skills__tailwind {
+    width: 80%;
+}
 
 .skills__js {
-    width: 60%;
+    width: 70%;
 }
 
 .skills__react {
-    width: 50%;
+    width: 60%;
 }
 
 .skills__git {
@@ -1169,6 +1172,7 @@ background-color: var(--text-color-light);
         justify-self: flex-end;
     }
     .footer__copy {
+        color: #fff;
         margin-top: 4.5rem;
     }
 
