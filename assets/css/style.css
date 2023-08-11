@@ -568,6 +568,21 @@ img {
 .skills__photoshop {
     width: 85%;
 }
+.skills__aos {
+    width: 90%;
+}
+.skills__framer, .skills__gsap {
+    width: 70%;
+}
+.skills__next {
+    width: 75%;
+}
+.skills__django {
+    width: 70%;
+}
+.skills__jira {
+    width: 70%;
+}
 
 .skills__close .skills__list {
     height: 0;
